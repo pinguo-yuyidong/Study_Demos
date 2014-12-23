@@ -1,1 +1,1 @@
-include ':app', ':library', ':PullToReFreshDemo'
+include ':app', ':library', ':PullToReFreshDemo', ':ViewPagerBackGroudColorChange'

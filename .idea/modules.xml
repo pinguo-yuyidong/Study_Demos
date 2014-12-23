@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AllDemo.iml" filepath="$PROJECT_DIR$/AllDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToReFreshDemo/PullToReFreshDemo.iml" filepath="$PROJECT_DIR$/PullToReFreshDemo/PullToReFreshDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study_Demos.iml" filepath="$PROJECT_DIR$/Study_Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerBackGroudColorChange/ViewPagerBackGroudColorChange.iml" filepath="$PROJECT_DIR$/ViewPagerBackGroudColorChange/ViewPagerBackGroudColorChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
