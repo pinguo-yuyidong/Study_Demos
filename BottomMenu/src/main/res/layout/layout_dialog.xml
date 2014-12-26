@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#00000000"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_menu1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="3dip"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/btn_menu"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="menu1"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_menu2"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="3dip"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/btn_menu">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="menu2"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="3dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_cancel"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="cancel"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

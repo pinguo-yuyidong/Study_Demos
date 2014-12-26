@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AllDemo.iml" filepath="$PROJECT_DIR$/AllDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BottomMenu/BottomMenu.iml" filepath="$PROJECT_DIR$/BottomMenu/BottomMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToReFreshDemo/PullToReFreshDemo.iml" filepath="$PROJECT_DIR$/PullToReFreshDemo/PullToReFreshDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study_Demos.iml" filepath="$PROJECT_DIR$/Study_Demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewPagerBackGroudColorChange/ViewPagerBackGroudColorChange.iml" filepath="$PROJECT_DIR$/ViewPagerBackGroudColorChange/ViewPagerBackGroudColorChange.iml" />
