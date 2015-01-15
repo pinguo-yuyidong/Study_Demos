@@ -13,6 +13,7 @@ import android.hardware.camera2.params.StreamConfigurationMap;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.util.Log;
 import android.util.Size;
 import android.view.LayoutInflater;
 import android.view.Surface;
@@ -33,6 +34,8 @@ public class CameraFragment extends Fragment implements TextureView.SurfaceTextu
     private HandlerThread mThreadHandler;
     private Size mPreviewSize;
     private CaptureRequest.Builder mPreviewBuilder;
+    private long firstRecordTime;
+    private long openRecordTime;
 
     public static CameraFragment newInstance() {
         return new CameraFragment();
@@ -41,6 +44,7 @@ public class CameraFragment extends Fragment implements TextureView.SurfaceTextu
     @SuppressWarnings("ResourceType")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        firstRecordTime = System.currentTimeMillis();
         View v = inflater.inflate(R.layout.camera_frag, null);
         initLooper();
         initUIAndListener(v);
@@ -55,6 +59,7 @@ public class CameraFragment extends Fragment implements TextureView.SurfaceTextu
 
     private void initUIAndListener(View v) {
         mPreviewView = (TextureView) v.findViewById(R.id.textureview);
+
         mPreviewView.setSurfaceTextureListener(this);
     }
 
@@ -137,6 +142,8 @@ public class CameraFragment extends Fragment implements TextureView.SurfaceTextu
             } catch (CameraAccessException e) {
                 e.printStackTrace();
             }
+            openRecordTime = System.currentTimeMillis();
+            Log.i("Time", "openRecordTime - firstRecordTime = " + (openRecordTime - firstRecordTime));
         }
 
         @Override
