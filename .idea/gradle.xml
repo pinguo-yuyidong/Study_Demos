@@ -14,7 +14,7 @@
             <option value="$PROJECT_DIR$/ViewPagerBackGroudColorChange" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/camera2" />
-            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/pulltorefreshlibrary" />
           </set>
         </option>
       </GradleProjectSettings>

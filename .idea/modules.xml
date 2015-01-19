@@ -9,7 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/ViewPagerBackGroudColorChange/ViewPagerBackGroudColorChange.iml" filepath="$PROJECT_DIR$/ViewPagerBackGroudColorChange/ViewPagerBackGroudColorChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/camera2/camera2.iml" filepath="$PROJECT_DIR$/camera2/camera2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Others/library/library.iml" filepath="$PROJECT_DIR$/Others/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefreshlibrary/pulltorefreshlibrary.iml" filepath="$PROJECT_DIR$/pulltorefreshlibrary/pulltorefreshlibrary.iml" />
     </modules>
   </component>
 </project>

@@ -1,1 +1,1 @@
-include ':app', ':library', ':PullToReFreshDemo', ':ViewPagerBackGroudColorChange', ':BottomMenu', ':camera2'
+include ':app', ':PullToReFreshDemo', ':ViewPagerBackGroudColorChange', ':BottomMenu', ':camera2', ':pulltorefreshlibrary'
